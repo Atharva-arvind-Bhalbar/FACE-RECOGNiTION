@@ -1,0 +1,23 @@
+body
+{
+    color:yellow;
+    background : black;
+}
+
+#camera
+{
+   width: 350px;
+   height: 350px;
+   border: 2px  dashed yellowgreen;
+}
+
+#heading    
+{
+  color: black;
+  background: yellow;
+}
+
+.name_of_object , #result_object_name,#result_object_accuracy
+{
+    color: yellowgreen;
+}

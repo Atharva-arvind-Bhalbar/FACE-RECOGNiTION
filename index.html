@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>FACE RECOGNATION APP></title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <centre>
+                <h3 id="heading" class="btn  btn-default heading"> FACE  RECOGNiTION  </h3>
+      <br><br>
+
+      <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
+
+      <b class="name_of_object">
+        ME
+        <hr>
+        FATHER
+        <hr>
+        UNCAL
+        <hr>
+
+      <label>Webcam View - </label>
+      <div id = "camera"></div>
+      <br><br>
+      <div id="result"></div>
+      <br><br>
+      <button onclick="take_snapshot();" class="btn btn-info">Capture FACE </button>
+      <br><br>
+      <button onclick="check();" class="btn btn-success">Identify  FACE</button>
+      <br><br>
+
+      <p style="font-size: 22px;">Face : <span id="result_object_name"></span> </p>
+      <p style="font-size: 22px;">Accuracy : <span id="result_object_accuracy"></span> </p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+            </centre>
+        </div>
+    </body>
+</html>
